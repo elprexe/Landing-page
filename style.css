@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1F2937;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.nav-item {
+    color: #E5E7EB;
+    padding: 10px 15px;
+    font-size: 18px;
+}
